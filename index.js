@@ -62,7 +62,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 // 2. Updated CORS for Production
-const allowedOrigins = ["http://localhost:3000", "https://shopmart.vercel.app"];
+const allowedOrigins = ["http://localhost:3000", "https://shopmart-hol.vercel.app"];
 app.use(cors({
     origin: allowedOrigins,
     credentials: true
